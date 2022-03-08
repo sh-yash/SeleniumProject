@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DesignSuite" verbose="1">
+	<!-- Suite name="Suite Name" -->
+	<test name="DesignSuite" allow-return-values="true">
+		<!-- packagename.Testcase class name -->
+		<classes>
+			<class name="com.seleniumProject.Runner.SuiteRunner">
+			<!-- 	<methods>
+					<include name="setupAddElementTestClass" />
+				</methods> -->
+			</class>
+		</classes>
+	</test>
+
+</suite>
+

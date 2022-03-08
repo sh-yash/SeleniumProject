@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="seleniumProject_Automation">
+  <test name="DSP1020">
+    <parameter name="module" value="Sanity"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="clienv" value="Windows 10"/>
+    <classes>    </classes>
+  </test> <!-- DSP1020 -->
+</suite> <!-- seleniumProject_Automation -->

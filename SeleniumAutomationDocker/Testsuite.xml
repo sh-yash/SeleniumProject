@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- @Website => PLease provide the seleniumProject module on which the script is dependent on like @DSP, @Data Analytic , @Design Room , @Corporate -->
+<!-- @Module => Please provide the Website sub-module for which the test case is associated like Sanity,Login -->
+<!-- @Platofrm => Provide which specific machine test case is -->
+<Testcases>
+	<!-- ====================== @@ START Test-Case for Corporate Web-site Here @@ ================================= -->
+	
+	<testcase>
+		<TestCaseId>CO1859</TestCaseId>
+		<TestCaseName>To verify the login functionality of the page
+		</TestCaseName>
+		<Module>Sanity</Module>
+		<Website>Corporate</Website>
+		<Browser>phantom</Browser>
+		<Platform>Windows</Platform>
+		<JIRA_Id>CO1859</JIRA_Id>
+	</testcase>
+	<testcase>
+		<TestCaseId>CO2705</TestCaseId>
+		<TestCaseName>To verify the login functionality of the page
+		</TestCaseName>
+		<Module>Login</Module>
+		<Website>Corporate</Website>
+		<Browser>chrome</Browser>
+		<Platform>Windows</Platform>
+		<JIRA_Id>CO2705</JIRA_Id>
+	</testcase>
+	
+	<!-- ====================== @@ END of Test-Case for Corporate Web-site Here @@ ================================= -->
+
+
+	<!-- ====================== @@ START Test-Case for Design Room Here @@ ======================================== -->
+
+	<testcase>
+		<TestCaseId>DR1859</TestCaseId>
+		<TestCaseName>To verify the login functionality of the page in mac os
+		</TestCaseName>
+		<Module>Sanity</Module>
+		<Website>DesignRoom</Website>
+		<Browser>chrome</Browser>
+		<Platform>All</Platform>
+		<JIRA_Id>DR1859</JIRA_Id>
+	</testcase>
+	<testcase>
+		<TestCaseId>DR10</TestCaseId>
+		<TestCaseName>To verify the login functionality of the page in  os
+		</TestCaseName>
+		<Module>Sanity</Module>
+		<Website>DesignRoom</Website>
+		<Browser>chrome</Browser>
+		<Platform>All</Platform>
+		<JIRA_Id>DR10</JIRA_Id>
+	</testcase>
+		<testcase>
+		<TestCaseId>DR1860</TestCaseId>
+		<TestCaseName>To verify the login functionality of the pagedsssssssssssss in  os
+		</TestCaseName>
+		<Module>Sanity</Module>
+		<Website>DesignRoom</Website>
+		<Browser>firefox</Browser>
+		<Platform>All</Platform>
+		<JIRA_Id>DR1860</JIRA_Id>
+	</testcase>
+		<testcase>
+		<TestCaseId>DR113</TestCaseId>
+		<TestCaseName>To verify the login functionality of the page in mac os
+		</TestCaseName>
+		<Module>Sanity</Module>
+		<Website>DesignRoom</Website>
+		<Browser>chrome</Browser>
+		<Platform>All</Platform>
+		<JIRA_Id>DR113</JIRA_Id>
+	</testcase>
+	
+
+	<!-- ====================== @@ END Test-Case for Design Room Here @@ ======================================== -->
+
+
+	<!-- ====================== @@ Start Test-Case for Data Analytic Here @@ =================================== -->
+
+	<testcase>
+	<TestCaseId>DA2169</TestCaseId>
+	<TestCaseName>To verify the login functionality of the page in mac os</TestCaseName>
+	<Module>Sanity</Module>
+	<Website>DataAnalytics</Website>
+	<Platform>Mac</Platform>
+	<JIRA_Id>DA2169</JIRA_Id>
+    </testcase>
+	<testcase>
+		<TestCaseId>DA2160</TestCaseId>
+		<TestCaseName>To verify the login functionality of the page in windows</TestCaseName>
+		<Module>Sanity</Module>
+		<Website>DataAnalytics</Website>
+		<Browser>chrome</Browser>
+		<Platform>Windows</Platform>
+		<JIRA_Id>DA2160,</JIRA_Id>
+	</testcase>
+
+	<!-- ====================== @@ END Test-Case for Data Analytic Here @@ ======================================== -->
+	
+	<!-- ====================== @@ Start Test-Case for DSP Here @@ =================================== -->
+
+	<testcase>
+		<TestCaseId>DSP2705</TestCaseId>
+		<TestCaseName>BMW VIDEO
+		</TestCaseName>
+		<Module>Video</Module>
+		<Website>VideoURL</Website>
+		<Browser>chrome</Browser>
+
+		<Platform>Windows</Platform>
+		<JIRA_Id>DSP212</JIRA_Id>
+	</testcase>
+    <testcase>
+		<TestCaseId>DSP1020</TestCaseId>
+		<TestCaseName>BMW VIDEO
+		</TestCaseName>
+		<Module>Sanity</Module>
+		<Website>DSP</Website>
+		<Browser>chrome</Browser>
+		<Platform>Windows</Platform>
+		<JIRA_Id>DSP1020</JIRA_Id>
+	</testcase>
+	<!-- ====================== @@ END Test-Case for DSP Here @@ ======================================== -->
+
+</Testcases>

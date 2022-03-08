@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="seleniumProject_Automation" parallel="tests">
+  <test name="DR1859">
+    <parameter name="module" value="Sanity"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="serverIP" value="https://qadr.seleniumProject.com:3011"/>
+    <parameter name="clienv" value="Windows 10"/>
+    <classes>
+      <class name="DesignRoom.Sanity.DR1859TestRunner"/>
+    </classes>
+  </test> <!-- DR1859 -->
+  <test name="DR10">
+    <parameter name="module" value="Sanity"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="serverIP" value="https://qadr.seleniumProject.com:3011"/>
+    <parameter name="clienv" value="Windows 10"/>
+    <classes>
+      <class name="DesignRoom.Sanity.DR10TestRunner"/>
+    </classes>
+  </test> <!-- DR10 -->
+  <test name="DR1860">
+    <parameter name="module" value="Sanity"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="serverIP" value="https://qadr.seleniumProject.com:3011"/>
+    <parameter name="clienv" value="Windows 10"/>
+    <classes>
+      <class name="DesignRoom.Sanity.DR1860TestRunner"/>
+    </classes>
+  </test> <!-- DR1860 -->
+</suite> <!-- seleniumProject_Automation -->
